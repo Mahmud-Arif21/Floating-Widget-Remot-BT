@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/forward"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="forward_icon"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/forward_icon" />
+
+    <ImageButton
+        android:id="@+id/backward"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="230dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="backward_icon"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/backward_icon" />
+
+    <ImageButton
+        android:id="@+id/left"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="left_icon"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/left_icon" />
+
+    <ImageButton
+        android:id="@+id/right"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="120dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="right_icon"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/right_icon" />
+
+    <ImageButton
+        android:id="@+id/goUp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="370dp"
+        android:layout_marginTop="65dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="upward_icon"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/upward_icon" />
+
+    <ImageButton
+        android:id="@+id/goDown"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="370dp"
+        android:layout_marginTop="175dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="downward_icon"
+        android:src="@mipmap/downward_icon" />
+
+    <ImageButton
+        android:id="@+id/stop"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="120dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="stop_icon"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/stop_icon" />
+
+    <ImageButton
+        android:id="@+id/buttonCreateWidget"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="490dp"
+        android:layout_marginTop="120dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="stop_icon"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/create_icon" />
+</RelativeLayout>
